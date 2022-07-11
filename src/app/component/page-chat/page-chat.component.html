@@ -1,0 +1,2 @@
+<app-c-room-start *ngIf="!logged" (logged)="logged = $event"></app-c-room-start>
+<app-c-chat-room *ngIf="logged" (exit_event)="logged = false"></app-c-chat-room>

@@ -1,0 +1,21 @@
+<div class="d-flex flex-column justify-content-center align-items-center">
+
+  <div class="mb-3" style="width: 600px;">
+    <label for="username_chat" class="form-label">Username</label>
+    <input type="text" [(ngModel)]="user.UserName" class="form-control" name="username_chat" id="username_chat"
+      aria-describedby="user_help" placeholder="username">
+    <small id="user_help" class="form-text text-muted">Insert here the username</small>
+  </div>
+  <div class="d-flex flex-row justify-content-center align-items-center">
+    <div class="mb-3" style="width: 500px;">
+      <label for="chat_code" class="form-label">Chat code</label>
+      <input [(ngModel)]="user.ChatCode" type="text" class="form-control" name="chat_code" id="chat_code"
+        aria-describedby="chat_help" placeholder="chat code">
+      <small id="chat_help" class="form-text text-muted">Insert the chat code</small>
+    </div>
+    <button style="height: 38px; margin-left: 10px; margin-bottom: 8px;" type="button" class="btn btn-primary ml-2"
+      (click)="make_one()">Generate</button>
+  </div>
+  <button style="width: 600px;" type="submit" class="btn btn-primary mt-2" (click)="submit()">Entra</button>
+
+</div>

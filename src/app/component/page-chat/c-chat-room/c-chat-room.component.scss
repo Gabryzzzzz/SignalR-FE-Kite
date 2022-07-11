@@ -1,0 +1,9 @@
+.scroll_chat {
+  height: 70vh;
+  width: 575px;
+  overflow-y: scroll;
+}
+
+html {
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,10 @@
+{
+  "appService.defaultWebAppToDeploy": "None",
+  "appService.deploySubpath": "dist\\signalr-feangular",
+  "appService.zipIgnorePattern": ["node_modules{,/**}", ".vscode{,/**}"],
+  "angular.enable-strict-mode-prompt": false,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  }
+}
